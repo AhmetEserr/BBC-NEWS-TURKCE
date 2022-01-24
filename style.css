@@ -1,0 +1,684 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0px 100px;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: #b80000;
+    border-bottom: 1px solid #fff;
+}
+
+header .logo {
+    height: 60px;
+    width: 265px;
+    margin-left: -105px;
+}
+
+header .logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+header .logo:hover {
+    border-bottom: 3px solid white;
+}
+
+nav {
+    height: 45px;
+    width: 100%;
+    background-color: #b80000;
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+
+}
+
+nav .container {
+    padding: 0px 0px;
+}
+
+nav .container>ul {
+    width: 100%;
+    height: 100%;
+}
+
+nav .container>ul>li {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    margin-left: -4px;
+    position: relative;
+}
+
+nav .container>ul>li>a {
+    padding: 10px 10px 0px 10px;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 17px;
+}
+
+nav .container>ul>li>a:hover {
+    border-bottom: 4px solid #fff;
+}
+
+nav .container>ul>li ul {
+    display: none;
+}
+
+nav .container>ul>li:hover>a+ul {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #b80000;
+    top: 45px;
+}
+
+nav .container>ul>li>a+ul li {
+    display: block;
+    width: 100%;
+    height: 45px;
+}
+
+nav .container>ul>li>a+ul li a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav .container>ul>li>a+ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.carousel-inner .item .carousel-caption h2 a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.carousel-inner .item .carousel-caption h2 a:hover {
+    text-decoration: underline !important;
+}
+
+.carousel-inner .item .carousel-caption>a p {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.carousel-inner .item .carousel-caption>a p:hover {
+    text-decoration: underline !important;
+}
+
+section .main-slider {
+    width: 970px;
+    height: 100%;
+    margin: auto;
+}
+
+section {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.ilk_renk {
+    color: white;
+}
+
+.ilk_renk:hover {
+    color: white;
+
+}
+
+.carousel-caption a:hover {
+    text-decoration: underline;
+}
+
+/*buton*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(184, 0, 0);
+    color: #ddd;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+#myBtn:hover {
+    background-color: white;
+    color: rgb(184, 0, 0);
+}
+
+item.gallery:hover {
+    border: 0px solid #777;
+    text-decoration: underline !important;
+
+}
+
+/*slider alti*/
+div.gallery {
+    border: 1px solid #ccc;
+    float: left;
+    width: 232px;
+    margin: 8px;
+    border: none;
+}
+
+div.gallery:hover {
+    border: 0px solid #777;
+    text-decoration: underline !important;
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.tüm_div {
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+/*çizgii*/
+.cizgi_alt1 {
+    margin-left: 180px;
+    margin-top: 5px;
+}
+
+.line-titles {
+    position: relative;
+    margin-top: 320px;
+    margin-left: 165px;
+    text-align: left;
+    display: block;
+    font-size: 19px;
+    width: 1005px;
+}
+
+.line-titles:before {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 2px solid #ddd;
+    content: ""
+}
+
+.line-titles span {
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    background: #fff;
+    display: inline-block
+}
+
+/*Büyük resim*/
+
+.buyuk_cizgi_alt .gallery {
+    margin: 2px;
+    width: 1000px;
+    height: 200px;
+    margin-left: 185px;
+    margin-top: 15px;
+}
+
+.buyuk_cizgi_alt .gallery:hover>h4 {
+    text-decoration: underline !important;
+
+}
+
+.buyuk_cizgi_alt .gallery>p {
+    text-decoration: none !important;
+}
+
+.buyuk_cizgi_alt .gallery>h4 {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.buyuk_cizgi_alt .gallery img {
+    width: 480px;
+    height: 290px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+
+/*çizgi altı resimler*/
+.div_altresim2 .gallery {
+    border: 1px solid #ccc;
+    float: left;
+    width: 232px;
+    margin: 8px;
+    border: none;
+}
+
+.div_altresim2 .gallery:hover {
+    border: 0px solid #777;
+    text-decoration: underline !important;
+
+}
+
+.div_altresim2.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.div_altresim2.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.div_altresim2 {
+    margin-left: 180px;
+    margin-top: 330px;
+}
+
+/*2.ci altı ayıran çizgi*/
+.line-title {
+    position: relative;
+    margin-top: 490px;
+    margin-left: 165px;
+    text-align: left;
+    display: block;
+    font-size: 19px;
+    width: 1005px;
+}
+
+.line-title:before {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 2px solid #ddd;
+    content: "";
+    margin-top: 65px;
+}
+
+.line-title span {
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    background: #fff;
+    display: inline-block
+}
+
+.cizgi_alt2 {
+    margin-left: 180px;
+    margin-top: -315px;
+}
+
+/*3.alt çizgi*/
+.line-titl {
+    position: relative;
+    margin-top: 630px;
+    margin-left: 165px;
+    text-align: left;
+    display: block;
+    font-size: 19px;
+    width: 1005px;
+}
+
+.line-titl:before {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 2px solid #ddd;
+    content: "";
+    margin-top: 1px;
+}
+
+.line-titl span {
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    background: #fff;
+    display: inline-block
+}
+
+.buyuk_cizgi_alt2 {
+    margin-top: -305px;
+}
+
+.buyuk_cizgi_alt2 .gallery {
+    margin: 2px;
+    width: 1000px;
+    height: 200px;
+    margin-left: 185px;
+    margin-top: 60px;
+}
+
+.buyuk_cizgi_alt2 .gallery:hover>h4 {
+    text-decoration: underline !important;
+
+}
+
+.buyuk_cizgi_alt2 .gallery>p {
+    text-decoration: none !important;
+}
+
+.buyuk_cizgi_alt2 .gallery>h4 {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.buyuk_cizgi_alt2 .gallery img {
+    width: 480px;
+    height: 290px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+/*--- çizgi3*/
+.line-tit {
+    position: relative;
+    margin-top: 630px;
+    margin-left: 165px;
+    text-align: left;
+    display: block;
+    font-size: 19px;
+    width: 1005px;
+}
+
+.line-tit:before {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 2px solid #ddd;
+    content: "";
+    margin-top: 1px;
+}
+
+.line-tit span {
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    background: #fff;
+    display: inline-block
+}
+
+.tum_kutular {
+    margin-top: 25px;
+}
+
+/*--sag sol kutu--*/
+.sol_kutu {
+    border: 2px solid white;
+    width: 450px;
+    height: 400px;
+    margin-left: 210px;
+}
+
+.sag_kutu {
+    border: 2px solid white;
+    height: 400px;
+    width: 450px;
+    margin: 10px;
+    margin-top: -355px;
+    margin-left: 480px;
+}
+
+/*----------*/
+.sol_kutu .bir span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+    margin-left: -330px;
+}
+
+.sol_kutu .iki span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+    margin-left: -330px;
+}
+
+.sol_kutu .uc span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+    margin-left: -330px;
+}
+
+.sol_kutu .dort span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+    margin-left: -330px;
+}
+
+.sol_kutu .bes span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+    margin-left: -330px;
+}
+
+/*sag---------*/
+.sag_kutu .bir span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+}
+
+.sag_kutu .iki span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+}
+
+.sag_kutu .uc span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+}
+
+.sag_kutu .dort span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+}
+
+.sag_kutu .bes span {
+    color: rgb(184, 0, 0);
+    font-size: 60px;
+}
+
+
+.yazi {
+    width: 350px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 90px;
+}
+
+.yazi .bir p {
+    font-size: 10px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.yazi .bir span:hover {
+    text-decoration: underline !important;
+}
+
+.yazi p:hover {
+    text-decoration: underline !important;
+}
+
+.yazi2 p:hover {
+    text-decoration: underline !important;
+}
+
+.yazi3 p:hover {
+    text-decoration: underline !important;
+}
+
+.yazi4 p:hover {
+    text-decoration: underline !important;
+}
+
+.yazi5 p:hover {
+    text-decoration: underline !important;
+}
+
+.yazi2 {
+    width: 350px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 90px;
+}
+
+.yazi2 .iki p {
+    font-size: px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+/*----*/
+.yazi3 p:hover {
+    text-decoration: underline !important;
+}
+
+.yazi3 {
+    width: 350px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 90px;
+}
+
+.yazi3 .iki p {
+    font-size: px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+/*-----*/
+.yazi4 p:hover {
+    text-decoration: underline !important;
+}
+
+.yazi4 {
+    width: 350px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 90px;
+}
+
+.yazi4 .iki p {
+    font-size: px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+/*-----------*/
+.yazi5 p:hover {
+    text-decoration: underline !important;
+}
+
+.yazi5 {
+    width: 350px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 98px;
+}
+
+.yazi5 .iki p {
+    font-size: px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.alt_logo {
+    margin-top: 30px;
+    height: 70px;
+    width: 100%;
+    background-color: #b80000;
+
+}
+
+.alt_logo1 {
+    height: 60px;
+    width: 25px;
+    margin-left: 20px;
+
+}
+.alt_logo1:hover {
+    border-bottom: 3px solid white;
+}
+.son_kısım{
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 170px;
+    margin-top: 0px;
+
+}
+
+.son_kısım a{
+    color: #fff;
+}
+.son_kısım a:hover{
+    text-decoration: underline;
+}
+.son_kısım ul{
+    width: 100%;
+    height: 100%;
+}
+
+.son_kısım > ul > li{
+    display: block;
+    width: 100%;
+    height: 33%;
+    padding-top: 20px;
+    border-bottom: 0.0625rem solid rgb(63, 63, 66)
+}
+
+.son_kısım > ul > li ul{
+    width: 100%;
+    height: 100%;
+}
+
+.son_kısım > ul > li ul li{
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    margin-left: -5px;
+}
+
+footer{
+    background-color: #222;
+}
+footer ul li a:hover{
+    text-decoration: underline !important;
+}
